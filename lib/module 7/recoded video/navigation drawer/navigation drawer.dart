@@ -9,13 +9,20 @@ class NavDrawer extends StatelessWidget {
       appBar: AppBar(title: const Text('Navigation drawer')),
       drawer: Drawer(
         child: ListView(
-          children: const [
-            DrawerHeader(child: Text('Rabbil')),
-            ListTile(title: Text('Home')),
-            ListTile(title: Text('contact')),
-            ListTile(title: Text('Profile')),
-            ListTile(title: Text('Email')),
-            ListTile(title: Text('Phone')),
+          children: [
+            DrawerHeader(
+              padding: const EdgeInsets.all(0),
+              child: UserAccountsDrawerHeader(
+                accountName: const Text('Shahdath'),
+                accountEmail: const Text('Shahadathhosen@gmail.com'),
+                currentAccountPicture: Image.network("https://picsum.photos/id/237/200/300"),
+              ),
+            ),
+            const ListTile(title: Text('Home')),
+            const ListTile(title: Text('contact')),
+            const ListTile(title: Text('Profile')),
+            const ListTile(title: Text('Email')),
+            const ListTile(title: Text('Phone')),
           ],
         ),
       ),
