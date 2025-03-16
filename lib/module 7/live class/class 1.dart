@@ -7,10 +7,23 @@ class Class1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello World'),
+        title: Text(
+            'Hello World',
+            style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.deepPurple,
+        centerTitle: true,
       ),
       body: Center(
-        child: Text('Hello World'),
+        child: Text(
+          'Hello World',
+          style: TextStyle(
+            color: Colors.deepPurple,
+            fontWeight: FontWeight.bold,
+            overflow: TextOverflow.ellipsis,
+          ),
+          textDirection: TextDirection.ltr,
+        ),
       ),
     );
   }
