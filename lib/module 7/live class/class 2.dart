@@ -10,6 +10,7 @@ class Class2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Class 2')),
       body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
