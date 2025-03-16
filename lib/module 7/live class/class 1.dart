@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// AppBar,Text
+
 class Class1 extends StatelessWidget {
   const Class1({super.key});
 
@@ -8,7 +10,7 @@ class Class1 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-            'Hello World',
+            'Class 1',
             style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.deepPurple,

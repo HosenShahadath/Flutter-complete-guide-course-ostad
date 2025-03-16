@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice_ostad/module%207/live%20class/class%201.dart';
+import 'package:flutter_practice_ostad/module%207/live%20class/class%202.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Class1(),
+      home: Class2(),
     );
   }
 }
