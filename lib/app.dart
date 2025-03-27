@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice_ostad/module%207/live%20class/class%203.dart';
+import 'package:flutter_practice_ostad/module%208/recorded%20video/body.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Class3(),
+      home: BodyApp(),
     );
   }
 }
